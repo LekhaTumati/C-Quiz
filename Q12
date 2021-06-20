@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    static int j;
+    int i;
+    printf("%d\n", i);
+    printf("%d", j);
+    return 0;
+}
